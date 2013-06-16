@@ -8,8 +8,8 @@ images_dir = "images"
 javascripts_dir = "js"
 
 # output_style = :expanded or :nested or :compact or :compressed
-output_style = :compact
+output_style = :compressed
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 line_comments = false
-sass_options = { :debug_info => true }
+sass_options = { :debug_info => false }
