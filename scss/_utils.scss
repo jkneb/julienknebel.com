@@ -1,0 +1,28 @@
+// could be usefull
+//.hidden { display: none !important; visibility: hidden; }
+.invisible { visibility:hidden; }
+.fleft { float:left; }
+.fright { float:right; }
+.upper { text-transform:uppercase; }
+.bold { font-weight:bold; }
+.aleft { text-align:left; }
+.aright { text-align:right; }
+.acenter { text-align:center; }
+.unselectable { 
+     -webkit-user-select:none;
+        -moz-user-select:none;
+         -ms-user-select:none;
+             user-select:none;
+}
+.line { @include clearfix(); }
+.shown { display:block; }
+.hidden { display:none; }
+.no-borders { border:none; }
+.no-padding { padding:0; }
+
+// grid
+.w50 { width:48%; }
+.w50 + .w50 { margin-left:3%; }
+.w100 { width:100%; }
+
+.border-box { @include box-sizing(border-box); }
