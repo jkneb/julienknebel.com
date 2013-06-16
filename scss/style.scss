@@ -12,17 +12,17 @@ html, body { height:100%; }
 body { 
     overflow-y:scroll; font:75% Helvetica, Arial, sans-serif; 
     background-color:$backgroundColor; font-size:14px; 
-    width:$mainWidth; margin:0 auto; text-align:center;
-    color:#666; 
+    width:420px; margin:0 auto; color:#999; 
 }
 
 h1 { 
     font-family:'Titillium Web', Arial, sans-serif; 
     line-height:1.3em; margin:50px 0 20px; font-size:20px; 
+    color:#222;
 }
 h3 { margin:0 0 10px 0; text-align:left; text-transform:uppercase; }
-p { font-size:16px; line-height:1em; font-family:'Titillium Web', Arial, sans-serif; }
-img { border-radius:10px; }
+p { font-size:16px; line-height:1.3em; }
+img[src*="logo"] { border-radius:5px; width:60px; position:fixed; top:15px; left:15px; }
 i { font-style:normal; }
 a { color:$blue; text-decoration:none; }
 
