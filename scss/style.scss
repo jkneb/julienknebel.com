@@ -12,8 +12,9 @@ html, body { height:100%; }
 body { 
     overflow-y:scroll; font:75% Helvetica, Arial, sans-serif; 
     background-color:$backgroundColor; font-size:14px; 
-    width:420px; margin:0 auto; color:#999; 
+    width:420px; margin:0 auto; color:#999; padding:50px 40px;
 }
+.main { padding-bottom:100px; }
 
 h1 { 
     font-family:'Titillium Web', Arial, sans-serif; 
@@ -30,5 +31,11 @@ hr { border:none; border-top:1px solid #ddd; }
 
 ul { text-align:left; margin:0 auto; list-style:none; padding:0; }
 li { 
-    &:before { content:'››'; display:inline-block; margin-right:5px; } 
+    &:before { content:'›'; display:inline-block; margin-right:5px; } 
+}
+
+
+@media (max-width: 600px) {
+    body { width:auto; }
+    img[src*="logo"] { top:15px; left:40px; position:absolute; }
 }
