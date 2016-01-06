@@ -5,36 +5,46 @@
 @import "normalize";
 @import "buttons";
 @import "icons";
+@import "projects";
 @import "utils";
 
 
 html, body { height:100%; }
-body {
-    overflow-y:scroll; font:75% Helvetica, Arial, sans-serif;
-    background-color:$backgroundColor; font-size:14px;
-    width:420px; margin:0 auto; color:#999; padding:50px 40px;
-}
-.main { padding-bottom:100px; }
-
-h1 {
-    font-family:'Titillium Web', Arial, sans-serif;
-    line-height:1.3em; margin:50px 0 20px; font-size:23px;
-    color:#222; font-weight:normal;
-}
-h3 { margin:0 0 10px 0; text-align:left; text-transform:uppercase; }
-p { font-size:15px; line-height:1.3em; }
-img[src*="logo"] { border-radius:5px; width:60px; position:fixed; top:15px; left:15px; }
-img[src*="logo"] + img[src*="logo"] { left:82px; }
-i { font-style:normal; }
-a { color:$blue; text-decoration:none; }
-hr { border:none; border-top:1px solid #ddd; }
-.imp { color:$blue; }
-
-ul { text-align:left; margin:0 auto; list-style:none; padding:0; }
-li {
-    &:before { content:'›'; display:inline-block; margin-right:5px; }
+body { background-color:$backgroundColor; }
+.main {
+  margin:0 auto;
+  padding:50px 40px;
+  width:420px;
+  color:#999;
 }
 
+
+.main {
+  h1 {
+      font-family:'Titillium Web', Arial, sans-serif;
+      line-height:1.3em; margin:50px 0 20px; font-size:23px;
+      color:#222; font-weight:normal;
+  }
+  h3 { margin:0 0 10px 0; text-align:left; text-transform:uppercase; }
+  p { font-size:15px; line-height:1.3em; }
+  img[src*="logo"] { border-radius:5px; width:60px; position:fixed; top:15px; left:15px; }
+  img[src*="logo"] + img[src*="logo"] { left:82px; }
+  i { font-style:normal; }
+  a { color:$blue; text-decoration:none; }
+  hr { border:none; border-top:1px solid #ddd; }
+  .imp { color:$blue; }
+
+  ul { text-align:left; margin:0 auto; list-style:none; padding:0; }
+  li {
+      &:before { content:'›'; display:inline-block; margin-right:5px; }
+  }
+}
+
+.logo-menu {
+  position:fixed;
+  top:100px;
+  left:15px;
+}
 
 @media (max-width: 600px) {
     body { width:auto; }

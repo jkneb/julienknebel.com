@@ -1,0 +1,41 @@
+.projects {
+  font-size:1.1em;
+}
+
+.project {
+  margin:0px 0px 90px;
+}
+
+.project__title {
+
+}
+
+.project__date {
+  color: #999;
+  font-size: .9em;
+  margin: -5px 0 10px;
+}
+
+.project__role {
+
+}
+
+.project__desc {
+
+}
+
+.project__link {
+  margin:10px 0 25px;
+  display:inline-block;
+}
+
+.project__pictures {
+  border: 1px solid $bordersColor;
+  padding: 15px;
+  background: whitesmoke;
+  overflow-x: scroll;
+  height: 350px;
+  white-space: nowrap;
+  img { max-height:320px; }
+  img:hover { opacity:.8; }
+}
