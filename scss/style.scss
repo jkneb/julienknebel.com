@@ -28,7 +28,7 @@ body { background-color:$backgroundColor; }
   h3 { margin:0 0 10px 0; text-align:left; text-transform:uppercase; }
   p { font-size:15px; line-height:1.3em; }
   img[src*="logo"] { border-radius:5px; width:60px; position:fixed; top:15px; left:15px; }
-  img[src*="logo"] + img[src*="logo"] { left:82px; }
+  img[src*="logo"] + img[src*="logo"] { left:82px; transform:translateX(-67px); }
   i { font-style:normal; }
   a { color:$blue; text-decoration:none; }
   hr { border:none; border-top:1px solid #ddd; }

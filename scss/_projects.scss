@@ -20,8 +20,9 @@
 
 }
 
-.project__desc {
-
+.project__text-label {
+  margin-bottom:0;
+  font-weight:bold;
 }
 
 .project__link {
@@ -36,6 +37,11 @@
   overflow-x: scroll;
   height: 350px;
   white-space: nowrap;
-  img { max-height:320px; }
-  img:hover { opacity:.8; }
+  a { display:inline-block; }
+  img {
+    margin:0 4px;
+    max-height:320px;
+    border:1px solid $bordersColor;
+    &:hover { opacity:.8; }
+  }
 }

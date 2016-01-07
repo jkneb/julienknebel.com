@@ -1,0 +1,133 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Monitoring Plants with Sensors",
+      "date": "2015",
+      "description": "An IoT personal project I'm working on which connects sensors, like temperature, luminosity, moisture, etc. to Internet where data is collected to be displayed on client web apps and/or hybrid apps.",
+      "role": "Personal Project",
+      "stack": "Arduino, Raspberry Pi\nNode.js/Express, PostgreSQL\nEmber.js, D3.js\nPhonegap, Ionic",
+      "type": "personal",
+      "externalLink": "https://github.com/jkneb/monitoring-plants-with-sensors",
+      "externalLabel": "Source files on Github",
+      "images": [
+        { "path": "./images/works/plant-sensors/plant-sensors-01.jpg" },
+        { "path": "./images/works/plant-sensors/plant-sensors-02.jpg" },
+        { "path": "./images/works/plant-sensors/plant-sensors-03.jpg" }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Street Fighter in CSS",
+      "date": "2013",
+      "description": "A simple demo of a powerful feature in CSS with which you can create a retro 2D game like Street Fighter (with a little bit of JS though). It has been featured on [the David Walsh blog](https://davidwalsh.name/street-fighter) and on Codepen's home page for a few weeks.\n\nThe little project recorded more than 40k views in only 24 hours.",
+      "role": "Personal Project",
+      "stack": null,
+      "type": "personal",
+      "externalLink": "http://codepen.io/jkneb/pen/smtHA",
+      "externalLabel": "Codepen Demo",
+      "images": [
+        { "path": "./images/works/codepen/sf2/01.gif" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CSS 3D Icosahedron",
+      "date": "2013",
+      "description": "A another demo this time showcasing some complex CSS 3D transforms to create a nice icosahedron. \nAbsolutely no JS were used.",
+      "role": "Personal Project",
+      "stack": null,
+      "type": "personal",
+      "externalLink": "http://codepen.io/jkneb/pen/feCvg",
+      "externalLabel": "Codepen Demo",
+      "images": [
+        { "path": "./images/works/codepen/icosahedron/01.gif" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AXA Tech - Cloud Portal",
+      "date": "2014-2015",
+      "description": "For AXA Technology Services, I was in charge of the whole user interface design and of all the screens development with JavaScript. The product was a multi-cloud management plateform (PaaS and IaaS services).",
+      "role": "UI Designer + Lead Front-end Dev",
+      "stack": "Grails/Groovy, Ember.js",
+      "type": "work",
+      "externalLink": null,
+      "externalLabel": null,
+      "images": [
+        { "path": "./images/works/ats/ats-cp-00.jpg" },
+        { "path": "./images/works/ats/ats-cp-01.jpg" },
+        { "path": "./images/works/ats/ats-cp-02.jpg" },
+        { "path": "./images/works/ats/ats-cp-03.jpg" },
+        { "path": "./images/works/ats/ats-cp-04.jpg" },
+        { "path": "./images/works/ats/ats-cp-05.jpg" },
+        { "path": "./images/works/ats/ats-cp-06.jpg" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "An In-Depth Introduction To Ember.js",
+      "date": "2013",
+      "description": "I wrote this extensive step-by-step tutorial for Smashing Magazine on Ember.js, the amazing JavaScript framework.",
+      "role": "Author",
+      "stack": null,
+      "type": "article",
+      "externalLink": "https://www.smashingmagazine.com/2013/11/an-in-depth-introduction-to-ember-js/",
+      "externalLabel": "Published on Smashing Magazine",
+      "images": [
+        { "path": "./images/works/smshng/01.jpg" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "MyTripSet - Desktop Version",
+      "date": "2012-2013",
+      "description": "I helped the designers to create the UI and implemented most of the screens of this responsive web application for Voyages-SNCF.com, which was awarded by an [Observeur du design price](http://www.apci.asso.fr/realisation/404) in 2013.",
+      "role": "UI Designer + Front-end Developer",
+      "stack": "Grails/Groovy, Ember.js",
+      "type": "work",
+      "externalLink": "http://mytripset.voyages-sncf.com/",
+      "externalLabel": "Project's Link",
+      "images": [
+        { "path": "./images/works/vsc-mtpst-desk/01.jpg" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MyTripSet - Mobile Version",
+      "date": "2012-2013",
+      "description": "Here, for the mobile responsive version I also implemented most of the the screens for the MyTripSet project (see above).",
+      "role": "UI Designer + Front-end Developer",
+      "stack": "Grails/Groovy, Ember.js",
+      "type": "work",
+      "externalLink": "http://mytripset.voyages-sncf.com/",
+      "externalLabel": "Project's Link (with a mobile browser)",
+      "images": [
+        { "path": "./images/works/vsc-mtpst-mob/02.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/03.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/04.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/05.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/06.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/07.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/08.jpg" },
+        { "path": "./images/works/vsc-mtpst-mob/01.jpg" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "La Carte des Bons Plans",
+      "date": "2012-2013",
+      "description": "On this project I helped the designers to create the designs and implemented all the UI of this JavaScript geolocation application for Voyages-SNCF.com.",
+      "role": "UI Designer + Front-end Developer",
+      "stack": "Grails/Groovy, Ember.js",
+      "type": "work",
+      "externalLink": "http://cartebonsplans.voyages-sncf.com/",
+      "externalLabel": "Project's Link",
+      "images": [
+        { "path": "./images/works/vsc-ct-bn-pln/01.jpg" },
+        { "path": "./images/works/vsc-ct-bn-pln/02.jpg" },
+        { "path": "./images/works/vsc-ct-bn-pln/03.jpg" }
+      ]
+    }
+  ]
+}
